@@ -16,14 +16,14 @@ const calculateBMI = () => {
   }
 
   // Create and append the new result
-  if ((value1) === "" || value1 < 0 || isNaN(value1)) {
+  if (value1 === "" || value1 < 0 || isNaN(value1)) {
     const result = document.createElement("p");
     result.innerHTML = `<b>Please give a Valid height ${value1}</b>`;
   } else if (value2 === "" || value2 < 0 || isNaN(value2)) {
     const result = document.createElement("p");
     result.innerHTML = `<b>Please give a Valid weight ${value2}</b>`;
   } else {
-    const BMI = value2 / value1 ** 2;
+    const BMI = (value2 / (value1 ** 2)).toFixed(3);
     const result = document.createElement("p");
     result.innerHTML = `<b>Your BMI is: ${BMI}</b>`;
     innerConatiner.appendChild(result);

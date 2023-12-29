@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./guess-number.css" >
+    <link rel="stylesheet" href="./guess-number.css" />
     <script src="./guess-number.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div id="banner">Guess Number Game</div>
-        
+      <h1 id="banner">Guess Number Game</h1>
+      <form class="form">
+        <input
+          id="input" type="number" min="0"   placeholder="Enter Your Number "/>
+          <br />
+        <button id="submit">Submit</button>
+        <button id="reset"> Retry</button>
+        <p id="result"></p>
+        <p id="chances">You Have 5 Chances to Guess</p>
+      </form>
     </div>
-</body>
+  </body>
 </html>
