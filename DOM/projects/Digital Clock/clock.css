@@ -1,0 +1,19 @@
+body {
+    margin: 0px;
+    padding: 0px; 
+    background-color: #212121; 
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#clock {
+    font-size: 40px;
+    background-color: orange;
+    padding: 20px 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+}

@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    
+}
+
+.container {
+    margin-top: 200px;
+}
+
+.class-button{
+    text-align: center;
+}
+
+button{
+    height: 10vh;
+    width: 10vh;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.white {
+    background-color: white;
+}
+
+.red {
+    background-color: red;
+}
